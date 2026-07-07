@@ -505,3 +505,125 @@ grid-template-columns:1fr;
 .network{width:95%;}
 .linux{width:90%;}
 .aws{width:80%;}
+
+.projects{
+
+width:85%;
+
+margin:120px auto;
+
+}
+
+.project-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+}
+
+.project-card{
+
+background:rgba(255,255,255,.05);
+
+border:1px solid rgba(255,255,255,.08);
+
+padding:30px;
+
+border-radius:25px;
+
+transition:.4s;
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+.project-card:hover{
+
+transform:translateY(-12px);
+
+border-color:#38bdf8;
+
+box-shadow:0 0 35px rgba(56,189,248,.35);
+
+}
+
+.project-icon{
+
+font-size:50px;
+
+margin-bottom:20px;
+
+}
+
+.project-card h3{
+
+font-size:24px;
+
+margin-bottom:15px;
+
+}
+
+.project-card p{
+
+color:#cbd5e1;
+
+line-height:30px;
+
+margin-bottom:30px;
+
+}
+
+.project-btn{
+
+display:flex;
+
+gap:15px;
+
+}
+
+.project-btn a{
+
+flex:1;
+
+text-align:center;
+
+padding:12px;
+
+border-radius:50px;
+
+text-decoration:none;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.project-btn a:first-child{
+
+background:#38bdf8;
+
+color:#081120;
+
+}
+
+.project-btn a:last-child{
+
+border:2px solid #38bdf8;
+
+color:white;
+
+}
+
+.project-btn a:hover{
+
+transform:scale(1.05);
+
+box-shadow:0 0 20px #38bdf8;
+
+}
