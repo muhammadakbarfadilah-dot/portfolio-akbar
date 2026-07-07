@@ -440,3 +440,68 @@ grid-template-columns:1fr;
 }
 
 }
+.skills{
+    width:85%;
+    margin:120px auto;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.title h4{
+    color:#38bdf8;
+    letter-spacing:2px;
+}
+
+.title h2{
+    font-size:42px;
+    margin-top:10px;
+}
+
+.skill-box{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:25px;
+}
+
+.skill-card{
+    background:rgba(255,255,255,.05);
+    padding:25px;
+    border-radius:18px;
+    border:1px solid rgba(255,255,255,.08);
+    transition:.35s;
+}
+
+.skill-card:hover{
+    transform:translateY(-8px);
+    border-color:#38bdf8;
+    box-shadow:0 0 20px rgba(56,189,248,.25);
+}
+
+.skill-header{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:15px;
+}
+
+.bar{
+    height:10px;
+    background:#1e293b;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.fill{
+    height:100%;
+    border-radius:20px;
+    background:linear-gradient(90deg,#38bdf8,#2563eb);
+}
+
+.html{width:90%;}
+.css{width:85%;}
+.js{width:70%;}
+.network{width:95%;}
+.linux{width:90%;}
+.aws{width:80%;}
