@@ -95,25 +95,16 @@ nav ul li a:hover{
 /* HERO */
 
 .hero{
-
     min-height:100vh;
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
     width:85%;
-
     margin:auto;
-
+    display:flex;
+    align-items:center;
 }
 
 .hero-text{
-
-    width:55%;
-
+    width:100%;
+    max-width:900px;
 }
 
 .hero-text h3{
@@ -202,31 +193,6 @@ nav ul li a:hover{
 
     box-shadow:0 0 25px #38bdf8;
 
-}
-
-.hero-image{
-
-    width:40%;
-
-    display:flex;
-
-    justify-content:center;
-
-}
-
-.hero-image img{
-
-    width:340px;
-
-    height:340px;
-
-    border-radius:50%;
-
-    object-fit:cover;
-
-    border:6px solid #38bdf8;
-
-    box-shadow:0 0 50px #0ea5e9;
 }
 
 /* Responsive */
